@@ -665,8 +665,23 @@ add_action( 'tgmpa_register', 'my_theme_register_required_plugins' );
 function my_theme_register_required_plugins() {
 	$plugins = array(
 		array(
-			'name'      => 'Kirki Customizer ',
+			'name'      => 'Kirki Toolkit',
 			'slug'      => 'kirki',
+			'required'  => false,
+		),
+		array(
+			'name'      => 'Flamingo',
+			'slug'      => 'flamingo',
+			'required'  => false,
+		),
+		array(
+			'name'      => 'Contact Form 7 ',
+			'slug'      => 'contact-form-7',
+			'required'  => false,
+		),
+		array(
+			'name'      => 'Instagram Feed ',
+			'slug'      => 'instagram-feed',
 			'required'  => false,
 		)
 	);

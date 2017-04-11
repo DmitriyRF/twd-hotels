@@ -17,5 +17,27 @@ wp-content/plugins/hello.php
 /sitemap.xml.gz
 
 readme.txt
+\.idea
+404.php
+archive.php
+\assets
+comments.php
+footer.php
+functions.sublime-workspace
+header.php
+\inc
+page-twd.php
+page.php
+rtl.css
+screenshot.png
+search.php
+searchform.php
+sidebar.php
+single.php
+sublime-twd.sublime-project
+sublime-twd.sublime-workspace
+\template-parts
+tpl_my-page.php
+
 
 

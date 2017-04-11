@@ -203,6 +203,7 @@ header {
 header .bg-block-logo {
   max-width: 400px;
   margin: 0 auto;
+
 }
 header .h2-logo {
   font-family: 'Gentium Book Basic', serif;
@@ -448,7 +449,7 @@ main .bg-grey-lighter {
   border-color: #02bbbd;
 }
 #form .button-subscribe {
-  padding: 20px 30px;
+  padding: 24px 30px;
   border-width: 0px;
   text-transform: uppercase;
   border-color: #02bbbd;
@@ -489,4 +490,24 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+
+
+
+div.wpcf7-mail-sent-ok {
+}
+div.wpcf7-response-output {
+    padding: 15px 25px;
+    border-width: 5px;
+    margin-right: 20px;
+    margin-left: 0px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+@media screen and (min-width: 48em){
+  .site-footer {
+      margin-top: 0;
+}
 }
